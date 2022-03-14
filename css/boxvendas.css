@@ -1,0 +1,65 @@
+.box_vendas{
+    position: absolute;
+    display: flex;
+    flex-direction: column;
+    
+    top: 80px;
+    right: -55px;
+
+   background-color: #fff;
+   width: 300px;
+   height: auto;
+   border-radius: 20px;
+   
+   border: 3px solid #000;
+   
+   box-shadow: 7px 7px #000;
+}
+
+.vendas_titulo{
+    border-radius: 15px 16px 0 0;
+    
+    position: relative;
+    text-align: left;
+    padding: 15px 10px;
+    background-color: rgb(233, 233, 233);
+
+    font-family: Verdana;
+
+    border-bottom: 3px  solid #000;
+}
+
+.venda_img{
+    margin-bottom: .50rem;
+    padding: 15px;
+}
+
+.vendas_botao{
+    font-size: 15px;
+    font-weight: 600;
+    font-family: 'Poppins';
+
+
+    position: relative;
+    padding: 10px;
+    background-color: var(--azul-do-botao);
+    
+    border-radius: 15px;
+
+    width: 70%;
+    margin:  auto;
+
+    margin-bottom: 1.25rem;
+    color: #fff;
+
+    transition: all 0.2s ease-in-out;
+}
+
+.vendas_botao:hover{
+    background-color: #044d55;
+}
+
+.vendas_botao:active{
+    font-size: 10px;
+    width: 60%;
+}

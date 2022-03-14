@@ -1,0 +1,75 @@
+
+body{
+    background-color: var(--azul-da-pagina);
+    text-align: center;
+
+}
+
+.cabecalho{
+   display: flex;
+   justify-content: space-between;
+   justify-items: center;
+   
+   margin-top: 15px;
+   text-align: center;
+   align-items: center;
+   font-family: 'Poppins', sans-serif;
+}
+
+.menu{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.link{
+    padding-left: 3.25rem;
+}
+
+.menu-interativo{
+    display: flex;
+    align-items: center;
+}
+
+.menu-interativo-icons{
+    margin-right: 1.1rem;
+    align-items: center;
+    
+}
+
+.login{
+    border: 1px solid var(--preto);
+    padding: 15px;
+}
+
+.cadastro{
+    color: #fff;
+    padding: 15px;
+    background-color: var(--azul-do-botao);
+    
+    transition: all 0.2s ease-in-out;
+}
+
+.cadastro:hover{
+    background-color: #044d55;
+}
+
+.cadastro:active{
+    font-size: 15px;
+    padding: 10px 15px;
+}
+
+.link a:hover{
+    transition: all 0.2s ease-in;
+    color: rgb(180, 175, 175);
+}
+
+.login:hover{
+    color: #fff;
+}
+
+
+
+
+
+
+

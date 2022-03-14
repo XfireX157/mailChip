@@ -1,0 +1,42 @@
+.conteudo_venda{
+    background-color: var(--begie-da-imagem);
+    width: 750px;
+    height: auto;
+    
+    border: 2px solid #000;
+    border-radius: 10px;
+}
+
+.list_conteudo ul {
+    width: 95%;
+    margin: auto;
+
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.list{
+    padding: 8px 0;
+    width: 30px;
+}
+
+.conteudo_big_mood{
+    position: relative;
+}
+
+.titulo_venda{
+    font-size: 1.60rem;
+    color: #ff6347;
+    font-family: 'Poppins';
+
+    font-weight: 600;
+}
+
+.img_conteudo{
+    display: flex;
+    margin: 40px 45px;
+    
+    width: 200px;
+}
+

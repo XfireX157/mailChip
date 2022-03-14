@@ -1,0 +1,55 @@
+.container{
+    width: 75%;
+    margin: auto;
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    justify-content: space-around;
+
+    margin-top: 10rem;
+    
+    font-family: 'Poppins';
+}
+
+.box{
+    width: 80%;
+    
+    text-align: justify;
+}
+
+.titulo_box{
+    font-size: 3.25rem;
+    margin-bottom: 3rem;
+}
+
+.texto_box{
+    font-size: 1.30rem;
+    margin-bottom: 5rem;
+    padding-right: 6rem;
+
+    color: var(--cinza);
+}
+
+.botao_box{
+    color: #fff;
+    
+    padding: 20px 50px;
+    background-color: var(--azul-do-botao);
+
+    font-weight: 500;
+    font-size: 17px;
+    font-family: 'Poppins';
+
+    transition: all 0.3s ease-in-out;
+}
+
+.botao_box:hover{
+    background-color: #044d55;
+}
+
+.botao_box:active{
+    font-size: 12px;
+    transition: all 0.1s ease-in;
+    padding: 15px 60px;
+}
